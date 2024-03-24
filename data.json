@@ -1,0 +1,12 @@
+{
+  "access_control_rules": [
+    {
+      "path": "/logout",
+      "roles": []
+    },
+    {
+      "path": "/login",
+      "roles": ["GIGEL", "DOREL"]
+    }
+  ]
+}
