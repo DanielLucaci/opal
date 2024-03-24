@@ -1,12 +1,29 @@
 {
   "access_control_rules": [
-    {
-      "path": "/logout",
+    { 
+      "path": "/auth/logout",
+      "methods": ["POST"],
       "roles": []
     },
     {
-      "path": "/login",
-      "roles": ["GIGEL"]
+      "path": "/auth/login",
+      "methods": ["POST"],
+      "roles": []
+    },
+    {
+      "path": "/security-service/users",
+      "methods": ["PUT"],
+      "roles": ["ADMIN", "HR"]
+    },
+    {
+      "path": "/goals-service/career-goals",
+      "methods": ["PUT", "POST"],
+      "roles": ["ADMIN", "HR", "TEAM_MANAGER", "EMPLOYEE", "ACCOUNTANT"]
+    },
+    {
+      "path": "/assets-service/assets",
+      "methods": ["GET", "POST"],
+      "roles": ["ADMIN", "ASSET_ADMIN"]
     }
   ]
 }
