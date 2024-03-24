@@ -6,7 +6,7 @@
     },
     {
       "path": "/login",
-      "roles": ["GIGEL", "DOREL"]
+      "roles": ["GIGEL"]
     }
   ]
 }
