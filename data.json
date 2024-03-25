@@ -18,7 +18,7 @@
     {
       "path": "/goals-service/career-goals",
       "methods": ["PUT", "POST"],
-      "roles": ["ADMIN", "HR", "TEAM_MANAGER", "EMPLOYEE", "ACCOUNTANT"]
+      "roles": ["ADMIN", "HR", "EMPLOYEE", "ACCOUNTANT"]
     },
     {
       "path": "/assets-service/assets",
